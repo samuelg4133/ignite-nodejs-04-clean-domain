@@ -5,13 +5,7 @@
   ],
   "rules": {
     "no-useless-constructor": "off",
-    "@typescript-eslint/adjacent-overload-signatures": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
+    "no-new": "off"
   },
   "env": {
     "vitest-globals/env": true
